@@ -1,0 +1,20 @@
+[
+  {
+    "id": 3739,
+    "username": "Isaac White",
+    "email": "white@example.com",
+    "password": "$2b$10$YX4KNA7og3YDAPMbNEjNOuDZcQ8ys9Q0.cQjNY6fj2mYKy0Qxfg6K",
+    "role": "admin",
+    "updatedAt": "05/02/2026, 9:36:43 pm"
+  },
+  {
+    "id": 6328,
+    "username": "Bryce Cotton",
+    "email": "cotton@mail.com",
+    "password": "$2b$10$qVCzAYSYHRbI/rgaB3J6s.HKJx7SFg9fUjo9/RwGG/Tg8i9/BJxMy",
+    "role": "user",
+    "appointments": [],
+    "createdAt": "05/02/2026, 9:30:14 pm",
+    "updatedAt": "05/02/2026, 9:30:14 pm"
+  }
+]

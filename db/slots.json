@@ -1,0 +1,20 @@
+[
+  {
+    "id": 2,
+    "date": "2024-07-01",
+    "startTime": "11:00",
+    "endTime": "12:00",
+    "isBooked": false,
+    "doctor": "Dr. Kokakora"
+  },
+  {
+    "id": 6285,
+    "date": "2026-02-28",
+    "startTime": "10:00",
+    "endTime": "13:00",
+    "isBooked": false,
+    "doctor": "Dr. Kokakora",
+    "createdAt": "2026-02-03T01:47:41.224Z",
+    "updatedAt": "03/02/2026, 6:06:23 pm"
+  }
+]

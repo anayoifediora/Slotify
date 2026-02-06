@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "userId": 1,
+        "slotId": 1,
+        "status": "booked",
+        "createdAt": "2024-06-20T10:00:00Z"
+    }
+]
