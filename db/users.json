@@ -1,20 +1,22 @@
 [
   {
-    "id": 3739,
-    "username": "Isaac White",
-    "email": "white@example.com",
-    "password": "$2b$10$YX4KNA7og3YDAPMbNEjNOuDZcQ8ys9Q0.cQjNY6fj2mYKy0Qxfg6K",
+    "id": 8617,
+    "username": "Michael Malone",
+    "email": "malone@mail.com",
+    "password": "$2b$10$LDy6W6MAQRKD2SGq5wAZROPMnMXCo63EUCfPKz8gSSSrBxRKwkSi2",
     "role": "admin",
-    "updatedAt": "05/02/2026, 9:36:43 pm"
+    "appointments": [],
+    "createdAt": "07/02/2026, 12:26:06 pm",
+    "updatedAt": "07/02/2026, 12:27:37 pm"
   },
   {
-    "id": 6328,
+    "id": 2197,
     "username": "Bryce Cotton",
     "email": "cotton@mail.com",
-    "password": "$2b$10$qVCzAYSYHRbI/rgaB3J6s.HKJx7SFg9fUjo9/RwGG/Tg8i9/BJxMy",
+    "password": "$2b$10$LjEQz4xkkhR9OiD5PgzuA.XllaV/8LYuX2UIBRK.yW9z.rQPglS4a",
     "role": "user",
     "appointments": [],
-    "createdAt": "05/02/2026, 9:30:14 pm",
-    "updatedAt": "05/02/2026, 9:30:14 pm"
+    "createdAt": "09/02/2026, 4:28:58 pm",
+    "updatedAt": "09/02/2026, 4:28:58 pm"
   }
 ]

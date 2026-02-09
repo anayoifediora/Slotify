@@ -9,7 +9,7 @@ const api = require('./routes/index');
 const uuid = require('./helpers/uuid');
 const { authMiddleWare } = require("./utils/auth");
 
-const expiration = "15m"
+const expiration = "59m"
 
 
 const PORT = 3005;

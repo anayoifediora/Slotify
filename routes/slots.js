@@ -5,7 +5,7 @@ const { authMiddleWare, requireAdmin } = require("../utils/auth");
 const uuid = require("../helpers/uuid");
 
 //GET request to get all slots
-slots.get("/", authMiddleWare, async (req, res) => {
+slots.get("/", authMiddleWare, requireAdmin, async (req, res) => {
   try {
     const allSlots = await readSlots();
     console.log(req.user);
@@ -17,7 +17,7 @@ slots.get("/", authMiddleWare, async (req, res) => {
 });
 
 //POST request to create a slot
-slots.post("/",  async (req, res) => {
+slots.post("/",  authMiddleWare, requireAdmin, async (req, res) => {
     
   try {
     

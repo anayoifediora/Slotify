@@ -1,9 +1,24 @@
 [
-    {
-        "id": 1,
-        "userId": 1,
-        "slotId": 1,
-        "status": "booked",
-        "createdAt": "2024-06-20T10:00:00Z"
-    }
+  {
+    "id": 7436,
+    "userId": 2453,
+    "status": "cancelled",
+    "slotId": "6285",
+    "date": "2026-02-28",
+    "startTime": "10:00",
+    "endTime": "13:00",
+    "doctor": "Dr. Kokakora",
+    "createdAt": "07/02/2026, 10:00:01 pm"
+  },
+  {
+    "id": 9326,
+    "userId": 2197,
+    "status": "cancelled",
+    "slotId": "6285",
+    "date": "2026-02-28",
+    "startTime": "10:00",
+    "endTime": "13:00",
+    "doctor": "Dr. Kokakora",
+    "createdAt": "09/02/2026, 4:30:48 pm"
+  }
 ]
