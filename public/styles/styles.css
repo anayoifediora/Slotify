@@ -1,0 +1,368 @@
+:root {
+  --theme: #5176a2;
+  --secondary-color: #319b81;
+  --background-color: #f5f5f5;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  
+}
+* {
+  font-family: "DM Sans", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+}
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid var(--theme);
+  max-width: 600px;
+  position: fixed;
+  top: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.home-page h1 {
+  font-size: 5rem;
+  color: var(--secondary-color);
+}
+.home-page p {
+  font-size: 1.5rem;
+  color: #666;
+}
+.home-page i {
+  color: #437a9f;
+  font-size: 5rem;
+}
+.login-btn,
+.signup-btn {
+  background-color: #437a9f;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.home-page div {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+.login-btn:hover,
+.signup-btn:hover {
+  background-color: #fff;
+  color: #437a9f;
+  border: 1px solid #437a9f;
+}
+.login-page, .signup-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--theme);
+  width: 500px;
+  position: fixed;
+  top: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.login-page h3, .signup-page h3 {
+  font-size: 2rem;
+  color: var(--secondary-color);
+  margin-bottom: 1rem;
+}
+.login-form, .signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+.login-form input, .signup-form input {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+.login-form button, .signup-form button {
+  background-color: #437a9f;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.login-form button:hover {
+  background-color: #fff;
+  color: #437a9f;
+  border: 1px solid #437a9f;
+}
+
+/* Dashboard */
+.dashboard-page, .admin-page {
+    width : 75%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo h1 {
+    color: var(--theme);
+    font-size: 2.2rem;
+    margin: 0.5rem;
+    font-weight: bold;
+}
+.logo i {
+    color: var(--theme);
+    font-size: 2.5rem;
+    margin: 0.5rem;
+    
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  
+
+}
+.appt-btn, .admin-btn {
+  background-color: var(--secondary-color);
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  margin: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.appt-btn:hover, .admin-btn:hover {
+  background-color: #fff;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+.nav ul {
+    list-style: none;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+.nav ul li {
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    
+}
+.nav-list li i {
+    margin: 1rem ;
+    font-size: 1.4rem;
+}
+.dashboard-content, .admin-content {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 1rem;
+    height:70vh;
+    background-color: var(--background-color)
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.logout-btn, .view-details-btn {
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.logout-btn:hover {
+    background-color: #fff;
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+}
+.welcome-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.welcome-section * {
+    margin: 1rem;
+}
+.welcome-section div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.appointments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 1px solid rgba(0, 0, 0, 0.1);
+}
+.appointment-card {
+    display: grid;
+    grid-template-areas: 
+        "appointment-info status"
+        "created-at view-details-btn";
+    grid-template-columns: 5fr 1fr;
+    row-gap: 50px;
+    padding: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+    width: 70%;
+
+}
+.status {
+    background-color: rgb(213, 234, 227);
+    color:var(--secondary-color);
+    font-weight: bold;
+    padding: 0.5rem 1.2rem;
+    border-radius: 45px;
+    justify-self: end;
+    grid-area: status;
+}
+.appointment-card > div > p, .appointment-info > p {
+    display: inline;
+    margin: 0.5rem;
+}
+.view-details-btn {
+    grid-area: view-details-btn;
+    justify-self: end;
+    margin-bottom: 0;
+}
+.view-details-btn:hover {
+    background-color: #fff;
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+}
+.created-at {
+    color: #666;
+    font-size: 0.9rem;
+    grid-area: created-at;
+    align-self: end;
+}
+.appointment-info {
+    grid-area: appointment-info;
+}
+.info-section {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-areas: 
+        "stats-section stats-section"
+        "appointments-section upcoming";
+    gap: 1.5rem;
+}
+.stats-section {
+    grid-area: stats-section;
+    width: 90%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 1rem;
+    justify-self: center;
+}
+.appointments-section, .upcoming {
+    grid-area: appointments-section;
+        background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+
+    
+}
+.upcoming {
+    grid-area: upcoming;
+    
+}
+.content {
+    display: flex;
+    flex-direction: column;    
+}
+.appointment-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    padding: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow:  8px rgba(0, 0, 0, 0.1);
+}
+.appointment-info h2 {
+    margin: 0 0 0.5rem 0;
+}
+.update-btn, .cancel-btn {
+    background-color: var(--theme);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.update-btn:hover, .cancel-btn:hover {
+    background-color: #fff;
+    color: var(--theme);
+    border: 1px solid var(--theme);
+}
+#calendar {
+    width: 90%;
+    margin-top: 1rem;
+}
+#calendar .fc-toolbar-title {
+    font-size: 1.5rem;
+    color: var(--theme);
+}

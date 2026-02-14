@@ -4,6 +4,9 @@ const users = express.Router();
 const bcrypt = require("bcrypt");
 const uuid = require("../helpers/uuid");
 const { all } = require(".");
+const path = require('path');
+// const { dir } = require("console");
+
 
 //GET request to get all users
 users.get("/", async (req, res) => {
@@ -25,6 +28,7 @@ users.get("/:id", async (req, res) => {
       return res.status(404).json({ message: "No user found with this id!" });
     }
     return res.status(200).json(singleUser);
+    // return res.sendFile(path.join(--dirname, "public", 'dashboard.html'))
   } catch (err) {
     console.error(err);
     return res.status(500).json({ message: "Server error" });
