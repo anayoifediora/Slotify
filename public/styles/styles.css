@@ -118,7 +118,7 @@ body {
 /* Dashboard */
 .dashboard-page, .admin-page {
     width : 75%;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     position: fixed;
     top: 100px;
@@ -198,7 +198,7 @@ body {
     grid-template-columns: 1fr 5fr;
     gap: 1rem;
     height:70vh;
-    background-color: var(--background-color)
+    background-image: linear-gradient(to right, #c9e5c9, #dcd1ef);
 }
 a {
     text-decoration: none;
